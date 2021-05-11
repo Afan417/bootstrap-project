@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mercedes Benz</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap-custom.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body style="overflow-x: hidden;">
+    <div class="container-fluid">
+      <!-- Navbar -->
+      <div class="container-responsive">
+        <nav class="navbar navbar-default container-fluid text-center" role="navigation" style="padding: 10px;background-color: rgb(145, 176, 177); font-weight: bold;">
+          <div class="navbar-header">
+            <a href="index.html" class="">
+              <img src="./images/logo.png" alt="" width="100" height="50" style="margin-right: 15px;" class="d-inline-block align-text-top">
+            </a>
+          </div>
+    
+          <div>
+            <ul class="nav navbar-nav navbar-left">
+              <li class=""><a href="index.html">Home</a></li>
+              <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Vehicles<b class="caret"></b></a>
+                 <ul class="dropdown-menu">
+                   <li><a href="amgs.html">AMG's</a></li>
+                   <li><a href="suvs.html">SUV's</a></li>
+                   <li class="divider"></li>
+                   <li><a href="vehicles.html">All vehicles</a></li>
+                 </ul>
+               </li>  
+               <li><a href="special.html">Shopping Offers</a></li>
+              
+            </ul>
+    
+            <div>
+              <form action="" role="search" class="navbar-form navbar-right">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default" style="margin-right: 10px;">Submit</button>
+              </form>
+            </div>
+            
+          </div>
+        </nav>
+      <!-- Navbar -->
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <h1 class="text-center" style="margin-bottom: 20px;">All Vehicles</h1>
+    </div>
+
+    <!--Before Row-->
+    <div class="container">
+      <hr>
+      <div class="row" style="display:flex; justify-content: space-between; align-items: center;">
+        <div>
+          <a href="#suv">
+            <h5 class="h3 text-center" style="margin-bottom: 10px;">SUV's</h5>
+          </a>
+        </div>
+        <div>
+          <a href="#coupes">
+            <h5 class="h3 text-center" style="margin-bottom: 10px;">Coupes</h5>
+          </a>
+        </div>
+        <div>
+          <a href="#amg">
+            <h5 class="h3 text-center" style=" margin-bottom: 10px;">AMG's</h5>
+          </a>
+        </div>
+        
+      </div>
+      <hr style="margin-bottom: 50px;">
+    </div>
+    <!--Before Row-->
+
+    <div class="container-fluid">
+      <h1 class="text-center" style="margin-bottom: 20px;" id="suv">SUVs</h1>
+      <hr>
+    </div>
+
+    <!-- Row 1 -->
+    <div class="container">
+      <div class="row">
+        <!--First-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car1.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">GLA SUV</h5>
+              <p class="card-text">More than a commanding view of the road ahead, the new second-generation GLA offers a rewarding view of what's next. It not only puts more sport in compact SUVs, it puts more you.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$42,400</span></li>
+              <li class="list-group-item">Compact & Sleek</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>AMG GLA 35 4MATIC SUV</option>
+                    <option>AMG GLA 45 4MATIC SUV</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--First-->
+
+        <!--Second-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car2.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">GLB SUV</h5>
+              <p class="card-text">Has any SUV ever fit so much into such a compact package? Seating for up to seven. Rugged in all the right places. Looks to match. So smart it can carry on a conversation.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$46,500</span></li>
+              <li class="list-group-item">Family-Friendly</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>GLB 250 4MATIC SUV</option>
+                    <option>AMG GLB 35 4MATIC SUV</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--Second-->
+
+        <!--Third-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car3.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">GLC SUV</h5>
+              <p class="card-text">The GLC aims to keep raising benchmarks for SUVs: Its athletic, aerodynamic body envelops an elegantly high-tech cabin. LED lighting and polished details express the brilliance within.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$49,900</span></li>
+              <li class="list-group-item">Mid-Size & Chic</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>GLC 300 4MATIC SUV</option>
+                    <option>AMG GLC 43 4MATIC SUV</option>
+                    <option>AMG GLC 63 S 4MATIC+ SUV</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--Third-->
+      </div>
+    </div>
+    <!-- Row 1 -->
+    <!--================================================================================-->
+    <!--Row 2-->
+    <div class="container">
+      <div class="row">
+        <!--4-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car4.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">GLC Coupe</h5>
+              <p class="card-text">Traction meets attraction: SUV capability, coupe agility, and bold Mercedes-Benz style. Along with four doors, flexible space, and turbo power driving all four 19-inch or 20-inch wheels.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$53,900</span></li>
+              <li class="list-group-item">Sporty</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>GLC 300 4MATIC Coupe</option>
+                    <option>AMG GLC 43 4MATIC Coupe</option>
+                    <option>AMG GLC 63 S 4MATIC+ Coupe</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--4-->
+
+        <!--5-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car5.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">GLE SUV</h5>
+              <p class="card-text">The luxury SUV that started the segment continues to lead the way. Roomy and refined, it's also agile and aerodynamic. And from LED headlamps to a bold yet elegant cabin style.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$69,900 </span></li>
+              <li class="list-group-item">Safe & Stylish</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>GLE 450 4MATIC SUV</option>
+                    <option>AMG GLE 63 S 4MATIC+ SUV</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--5-->
+
+        <!--6-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car6.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">GLE Coupe</h5>
+              <p class="card-text">The soul of a sports car, the skills of an SUV, and the elegance of a coupe reunite not just for a new generation, but a regeneration of every measure of Mercedes-AMG passion.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$94,500 </span></li>
+              <li class="list-group-item">High-Performance</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>AMG GLE 63 S 4MATIC+ Coupe</option>
+                    <option>AMG GLE 53 4MATIC+ Coupe</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--6-->
+      </div>
+    </div>
+    <!--Row 2-->
+    <!--================================================================================-->
+    <!--Row 3-->
+    <div class="container">
+      <div class="row">
+        <!--7-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car7.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">GLS SUV</h5>
+              <p class="card-text">In an ever-more-crowded field of luxury SUVs, treat yourself to some room. The sleek, spacious GLS wraps class-leading innovations in bold yet elegant style..</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$101,900</span></li>
+              <li class="list-group-item">Full-Size Luxury</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>GLS 580 4MATIC SUV</option>
+                    <option>AMG GLS 63 4MATIC+ SUV</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--7-->
+
+        <!--8-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car8.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">Mercedes-Maybach GLS</h5>
+              <p class="card-text">Detail on a grander scale: Every stitch feels tighter. Every pixel feels brighter. Exquisite materials greet your senses. Innovative luxuries engage, soothe, stimulate and satisfy.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$199,400  </span></li>
+              <li class="list-group-item">The new height of luxury</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>Mercedes-Maybach GLS 600 4MATIC SUV</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--8-->
+
+        <!--9-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car9.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">G-Class SUV</h5>
+              <p class="card-text">What makes an icon iconic? When it follows only its own moral compass. When design is shaped by its capability. When its sense of adventure is unwavering. It's forever timeless, and ready for what's next.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$154,900  </span></li>
+              <li class="list-group-item">Off-Road Icon</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>G 550 SUV</option>
+                    <option>Mercedes-AMG G 63 SUV</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--9-->
+      </div>
+    </div>
+    <!--Row 3-->
+
+    <!-- Before Coupes -->
+    <div class="container-fluid">
+      <h1 class="text-center" style="margin-top: 50px; margin-bottom: 20px;" id="coupes">Coupes</h1>
+      <hr>
+    </div>
+    <!-- Before Coupes -->
+
+    <!--Row 11-->
+    <div class="container">
+      <div class="row">
+        <!--1-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car11.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">CLA Coupe</h5>
+              <p class="card-text">It's the ongoing advancement of a game-changing original. Its four-door coupe style whispers seductively in your ear. Its industry-advancing voice assistant lets you talk back.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$43,600</span></li>
+              <li class="list-group-item">Seductive</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>CLA 250 4MATIC Coupe</option>
+                    <option>AMG CLA 45 Coupe</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--1-->
+
+        <!--2-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car22.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">C-Class Coupe</h5>
+              <p class="card-text">Its shape is sharpened. Its stance, assertive. Its details, polished. The C-Class Coupe displays its state-of-the-art innovations and turbocharged power in a muscular frame with the power to seduce.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$51,900 </span></li>
+              <li class="list-group-item">Bold & Sporty</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>AMG C 63 S Coupe</option>
+                    <option>C 300 4MATIC Coupe</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--2-->
+
+        <!--3-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car33.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">E-Class Coupe</h5>
+              <p class="card-text">The E-Class Coupe is a tradition that never stops leaping ahead. The art of driving is elevated with fresh new style. While the state of the art is advanced with intuitive new technology.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$81,900</span></li>
+              <li class="list-group-item">Smart & Stylish</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>E 450 4MATIC Coupe</option>
+                    <option>AMG E 53 4MATIC+ Coupe</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--3-->
+
+        <!--4-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car44.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">CLS Coupe</h5>
+              <p class="card-text">With its "four-door coupe" shape, the first CLS sparked a sleek new era in car design. With standard AMG styling, 19-inch wheels and LED lighting, the 3rd-generation CLS in better shape than ever.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$84,100</span></li>
+              <li class="list-group-item">Powerful</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>CLS 450 4MATIC Coupe</option>
+                    <option>AMG CLS 53 4MATIC+ Coupe</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--4-->
+
+        <!--5-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car55.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">S-Class Coupe</h5>
+              <p class="card-text">For decades, the flagship Mercedes-Benz coupe has advanced the state of the art, with industry-changing breakthroughs and uncompromising pillarless design. Its desirability is destined to endure alot.              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$160,900</span></li>
+              <li class="list-group-item">Sensuous</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>S 560 4MATIC Coupe</option>
+                    <option>AMG S 63 4MATIC+ Coupe</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--5-->
+      </div>
+    </div>
+    <!--Row 11-->
+    <!--================================================================================-->
+    <!--Row 111-->
+
+    <!-- Before AMG -->
+    <div class="container-fluid">
+      <h1 class="text-center" style="margin-top: 50px; margin-bottom: 20px;" id="amg">AMGs</h1>
+      <hr>
+    </div>
+    <!-- Before AMG -->
+
+    <!--Row 111-->
+    <div class="container">
+      <div class="row">
+        <!--1-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car111.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">Mercedes-AMG GT 4-Door</h5>
+              <p class="card-text">The AMG GT family has grown in number, and by countless measures of driving performance. Three 4-door coupes offer an unmatched experience for the driver and three fortunate passengers.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$119,800</span></li>
+              <li class="list-group-item">Fast & Spacious</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>AMG GT 53 4MATIC+ 4-door Coupe</option>
+                    <option>AMG GT 63 S 4MATIC+ 4-door Coupe</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--1-->
+
+        <!--2-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car222.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">Mercedes-AMG GT Coupe</h5>
+              <p class="card-text">With an unsurpassed motorsports pedigree behind it, the racers at Mercedes-AMG developed the GT to be a pure sports car with an ideal sense of balance. From its proportions to its sound.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$178,900</span></li>
+              <li class="list-group-item">Elite Performance</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>AMG GT C Coupe</option>
+                    <option>AMG GT R Coupe</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--2-->
+
+        <!--3-->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card" style="width: 100%;padding-left: 10px; padding-right: 10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
+            <a href="">
+              <img src="./images/car333.png" width="100%" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <h5 class="h3">Mercedes-AMG SL Roadster</h5>
+              <p class="card-text">For generations, few cars have inspired desire like the SL. For 2020, it's as inspiring as ever. Flowing LED headlamps sweep back from a shapely grille. Sculpted AMG body styling wraps around 19-inch wheels.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Starting at <span style="font-weight: bold;">$108,300</span></li>
+              <li class="list-group-item">Legendary</li>
+
+              <form role="form">
+                <div class="form-group">
+                  <select name="" id="" class="form-control">
+                    <option selected>View other models</option>
+                    <option>SL 450 Roadster</option>
+                    <option>SL 550 Roadster</option>
+                  </select>
+                </div>
+              </form>
+              
+                <div style="display: flex; justify-content: center; align-content: center;">
+                  <a href="vehicles.html">
+                    <button class="btn btn-primary" style="width: 150px; margin-bottom: 15px;">Visit another model</button>
+                  </a>
+                </div
+                >
+            </ul>
+          </div>
+        </div>
+        <!--3-->
+      </div>
+    </div>
+    
+
+
+  
+
+    <div class="container-responsive">
+<!-- Footer -->
+    <footer style="
+    margin-top: 100px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 2.5px black;
+    color: black;
+    text-align: center;
+    padding: 6px;
+    font-size: 12px;">
+    <p class="attribution">
+      <p style="font-size: 14px; text-align: center;">&copy; Copyright  2021 - All rights reserved </p>
+    </p>
+</footer>
+<!-- Footer -->
+    </div>
+    
+    
+        <script src="js/bootstrap.min.js"></script>
+      </body>
+    </html>
+    

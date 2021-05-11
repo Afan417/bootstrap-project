@@ -1,0 +1,5 @@
+/* set a max-width for horizontal fluid layout and make it centered */
+.container-responsive {
+    margin: 0 auto;
+    max-width: 1320px; /* or 950px */
+}
